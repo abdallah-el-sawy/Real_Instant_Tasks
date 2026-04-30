@@ -1738,7 +1738,8 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .last .container .bottom{
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
 }
 
 
@@ -1782,7 +1783,7 @@ h1,h2,h3,h4,h5,h6{
 /* Section 1 - part 2 */
 
 .intro .container .intro-part2{
-  width: 95%;
+  width: 80%;
   margin: 0px auto;
 }
 
@@ -1969,7 +1970,8 @@ h1,h2,h3,h4,h5,h6{
 /* footer */
 
 .last .container .bottom{
-    width: 100%;
+    width: 90%;
+    margin: 0px auto;
 }
 
 
@@ -2288,7 +2290,8 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .last .container .bottom{
-    width: 100%;
+    width: 98%;
+    margin: 0px auto;
 }
 
 }
