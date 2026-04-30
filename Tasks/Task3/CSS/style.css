@@ -658,8 +658,13 @@
   font-size: 14px;
   font-weight: 400;
   color: #2F2F2F;
+}
+
+.bottom .linkss .terms{
   margin-right: 10px;
 }
+
+
 
 .bottom .linkss a:hover{
   color: #a19f9f;
