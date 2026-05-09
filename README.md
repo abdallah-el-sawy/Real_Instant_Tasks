@@ -1,6 +1,6 @@
 # 🚀 Real Instant Tasks
 
-A collection of frontend tasks built as part of training with **Instant**.
+A collection of frontend tasks built as part of training with **Instant**.  
 This repository showcases multiple responsive web pages using modern web technologies.
 
 ---
@@ -11,7 +11,7 @@ This project contains a set of tasks focusing on:
 
 * Responsive Web Design 📱
 * Clean UI/UX ✨
-* Practicing HTML, CSS, and layout techniques
+* Practicing HTML, CSS, Bootstrap, and layout techniques
 
 ---
 
@@ -26,31 +26,57 @@ This project contains a set of tasks focusing on:
 
 ## 📂 Tasks Included
 
+### 🔹 Main Tasks
+
 * Task 1
 * Task 2
 * Task 3
+
+### 🚀 Extra Practice Tasks
+
+Additional frontend tasks created for extra practice and improving responsive design skills.
+
+These tasks focus on:
+
+* Advanced layouts
+* UI improvements
+* Responsive sections
+* Component practice
+* Real-world frontend structures
 
 ---
 
 ## 🔗 Live Preview
 
-### 🌐 View Each Task:
+### 🌐 Main Tasks
 
-* 🔹 Task 1:
+* 🔹 Task 1:  
   https://abdallah-el-sawy.github.io/Real_Instant_Tasks/Tasks/Task1/HTML/index.html
 
-* 🔹 Task 2:
+* 🔹 Task 2:  
   https://abdallah-el-sawy.github.io/Real_Instant_Tasks/Tasks/Task2/HTML/home.html
 
-* 🔹 Task 3:
+* 🔹 Task 3:  
   https://abdallah-el-sawy.github.io/Real_Instant_Tasks/Tasks/Task3/HTML/index.html
+
+---
+
+## ✨ Extra Tasks Preview
+
+### 🌟 Explore Additional Practice Projects
+
+* 🔸 Extra Task 1:  
+  https://abdallah-el-sawy.github.io/Real_Instant_Tasks/Extra/Task1/HTML/index.html
+
+> More extra tasks will be added continuously 🚀
 
 ---
 
 ## 💡 Notes
 
 * All tasks are fully responsive across different screen sizes
-* Focus was on layout structure and clean design
+* Focus was on layout structure, responsiveness, and clean UI
+* Extra tasks are added as additional frontend practice
 
 ---
 
@@ -60,6 +86,3 @@ This project contains a set of tasks focusing on:
 
 ---
 
-## ⭐ Support
-
-If you like this project, feel free to give it a ⭐ on GitHub!
