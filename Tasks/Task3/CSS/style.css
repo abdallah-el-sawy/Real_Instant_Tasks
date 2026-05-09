@@ -120,7 +120,7 @@
     content: "";
     position: absolute;
     top: 2.5rem;
-    right: -7.8125rem;
+    right: -70px;
     width: 16.875rem;
     height: 14.5rem;
     z-index: 0;
@@ -626,8 +626,9 @@
   background-color: #DCE5E4;
   margin-right: 10px;
   margin-top: 20px;
-  transition: all 0.3;
+  transition: all 0.3s;
   cursor: pointer;
+
 }
 
 .footer .center .left i:hover{
