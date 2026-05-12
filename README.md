@@ -68,6 +68,9 @@ These tasks focus on:
 * 🔸 Extra Task 1:  
   https://abdallah-el-sawy.github.io/Real_Instant_Tasks/Extra/Task1/HTML/index.html
 
+* 🔸 Extra Task 2:  
+  https://abdallah-el-sawy.github.io/Real_Instant_Tasks/Extra/Task2/HTML/index.html
+
 > More extra tasks will be added continuously 🚀
 
 ---
@@ -85,4 +88,3 @@ These tasks focus on:
 **Abdallah Elsawy**
 
 ---
-
