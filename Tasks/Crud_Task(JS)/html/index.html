@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab Session</title>
+  <link rel="stylesheet" href="../css/all.min.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+  <div class="container my-5 py-3">
+
+    <h1>Crud System</h1>
+    <hr>
+
+    <label for="productName" class="mt-4 my-2">Product Name</label>
+    <input type="text" id="productName" class="form-control" required>
+    <div id="productNameAlert" class="mt-1 alert alert-danger d-none">
+      <p>Invalid, Must Start With Uppercase</p>
+    </div>
+
+
+    <label for="productPrice" class="my-2">Product Price</label>
+    <input type="number" id="productPrice" class="form-control" required>
+    <div id="productPriceAlert" class="mt-1 alert alert-danger d-none">
+      <p>Invalid,There is no price less than 0 </p>
+    </div>
+
+
+    <label for="productCat" class="my-2">Product Category</label>
+    <input type="text" id="productCat" class="form-control" required>
+    <div id="productCatAlert" class="mt-1 alert alert-danger d-none">
+      <p>Invalid, Category Must be Only Alphabets , contains at least 2 characters </p>
+    </div>
+
+    <label for="productDesc" class="my-2">Product Description</label>
+    <input type="text" id="productDesc" class="form-control" required>
+    <div id="productDescAlert" class="mt-1 alert alert-danger d-none">
+      <p>Invalid,Description Must Contain at least 2 characters , can't have special characters </p>
+    </div>
+
+    <button id="mainBtn" class="btn btn-outline-primary my-3">Add Product</button>
+
+    <div class="position-relative">
+      <i
+        class="fa-solid fa-magnifying-glass position-absolute top-50 start-0 translate-middle-y ms-3 text-secondary"></i>
+
+      <input type="search" id="search" class="my-4 form-control" placeholder="Search">
+      <div id="searchAlert" class="alert alert-light d-none">
+        <p>Data Not Found!</p>
+      </div>
+    </div>
+
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Product Number</th>
+          <th>Product Name</th>
+          <th>Product Price</th>
+          <th>Product Category</th>
+          <th>Product Description</th>
+          <th>Update</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+
+      <tbody id="rowData">
+
+      </tbody>
+
+    </table>
+
+
+
+
+  </div>
+
+
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
