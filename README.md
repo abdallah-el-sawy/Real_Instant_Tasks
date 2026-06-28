@@ -31,6 +31,7 @@ This project contains a set of tasks focusing on:
 * Task 1
 * Task 2
 * Task 3
+* CRUD System
 
 ### 🚀 Extra Practice Tasks
 
@@ -58,6 +59,9 @@ These tasks focus on:
 
 * 🔹 Task 3:  
   https://abdallah-el-sawy.github.io/Real_Instant_Tasks/Tasks/Task3/HTML/index.html
+
+*  🔹 Task 4:  
+  https://abdallah-el-sawy.github.io/Real_Instant_Tasks/Tasks/Crud_Tasks(JS)/html/index.html
 
 ---
 
