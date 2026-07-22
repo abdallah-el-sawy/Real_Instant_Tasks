@@ -63,6 +63,9 @@ These tasks focus on:
 *  🔹 Task 4:  
   https://abdallah-el-sawy.github.io/Real_Instant_Tasks/Tasks/Crud_Task(JS)/html/index.html
 
+*  🔹 Final Project JS (Vanilla):  
+  https://abdallah-el-sawy.github.io/Real_Instant_Tasks/Tasks/FinalProject_JS/index.html
+
 ---
 
 ## ✨ Extra Tasks Preview
