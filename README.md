@@ -11,7 +11,7 @@ This project contains a set of tasks focusing on:
 
 * Responsive Web Design 📱
 * Clean UI/UX ✨
-* Practicing HTML, CSS, Bootstrap, and layout techniques
+* Practicing HTML, CSS, Bootstrap, Js and layout techniques
 
 ---
 
@@ -21,6 +21,7 @@ This project contains a set of tasks focusing on:
 * CSS3
 * Bootstrap
 * Font Awesome
+* Java Script Vanilla
 
 ---
 
@@ -77,6 +78,9 @@ These tasks focus on:
 
 * 🔸 Extra Task 2:  
   https://abdallah-el-sawy.github.io/Real_Instant_Tasks/Extra/Task2/HTML/index.html
+
+* 🔸 Extra ExtraGraduationProject :  
+  https://abdallah-el-sawy.github.io/Real_Instant_Tasks/Extra/Graduate_jsVanilla/html/index.html
 
 > More extra tasks will be added continuously 🚀
 
