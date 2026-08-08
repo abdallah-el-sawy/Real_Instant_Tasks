@@ -33,6 +33,7 @@ This project contains a set of tasks focusing on:
 * Task 2
 * Task 3
 * CRUD System
+* Final Project
 
 ### 🚀 Extra Practice Tasks
 
