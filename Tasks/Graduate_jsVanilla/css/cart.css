@@ -727,6 +727,669 @@ nav .active {
   }
 }
 
+/* ================= MODAL ================= */
+
+/* =========================
+   PREMIUM PRODUCT MODAL
+========================= */
+
+#exampleModal .modal-dialog {
+  max-width: 900px;
+}
+
+/* =========================
+   MODAL CONTENT
+========================= */
+
+#exampleModal .modal-content {
+  border: none;
+  border-radius: 22px;
+  overflow: hidden;
+
+  background: #ffffff;
+
+  box-shadow: 0 25px 70px rgba(10, 22, 51, 0.28);
+
+  border: 1px solid rgba(10, 22, 51, 0.08);
+}
+
+/* =========================
+   HEADER
+========================= */
+
+#exampleModal .modal-header {
+  position: relative;
+
+  padding: 22px 28px;
+
+  background: #0a1633;
+
+  border: none;
+}
+
+/* Green line under header */
+
+#exampleModal .modal-header::after {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  height: 3px;
+
+  background: #16c60c;
+}
+
+#exampleModal .modal-title {
+  color: #ffffff;
+
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+/* Close Button */
+
+#exampleModal .btn-close {
+  width: 36px;
+  height: 36px;
+
+  padding: 0;
+
+  border-radius: 50%;
+
+  background-color: rgba(255, 255, 255, 0.12);
+
+  filter: invert(1);
+
+  opacity: 1;
+
+  transition: 0.3s ease;
+}
+
+#exampleModal .btn-close:hover {
+  background-color: #16c60c;
+
+  transform: rotate(90deg);
+}
+
+/* =========================
+   BODY
+========================= */
+
+#exampleModal .modal-body {
+  padding: 32px;
+
+  background: #ffffff;
+}
+
+/* =========================
+   IMAGE
+========================= */
+
+#exampleModal #modalImage {
+  width: 100%;
+  height: 350px;
+
+  object-fit: contain;
+
+  padding: 25px;
+
+  background: #f5f7fa;
+
+  border-radius: 18px;
+
+  border: 1px solid #e8ebef;
+
+  transition: 0.4s ease;
+}
+
+#exampleModal #modalImage:hover {
+  transform: scale(1.03);
+
+  border-color: rgba(22, 198, 12, 0.35);
+
+  box-shadow: 0 10px 30px rgba(10, 22, 51, 0.08);
+}
+
+/* =========================
+   PRODUCT INFORMATION
+========================= */
+
+#exampleModal #modalTitle {
+  color: #0a1633;
+
+  font-size: 1.8rem;
+  font-weight: 800;
+
+  line-height: 1.3;
+
+  margin-bottom: 24px;
+}
+
+/* =========================
+   INFORMATION BOXES
+========================= */
+
+#exampleModal #modalCategory,
+#exampleModal #modalPrice,
+#exampleModal #modalRating,
+#exampleModal #modalWarranty,
+#exampleModal #modalStock {
+  display: flex;
+  align-items: center;
+
+  min-height: 48px;
+
+  margin-bottom: 12px;
+
+  padding: 12px 16px;
+
+  border-radius: 12px;
+
+  background: #f5f7fa;
+
+  border: 1px solid #e8ebef;
+
+  color: #555;
+
+  font-size: 0.95rem;
+  font-weight: 600;
+
+  transition: 0.25s ease;
+}
+
+/* Hover */
+
+#exampleModal #modalCategory:hover,
+#exampleModal #modalPrice:hover,
+#exampleModal #modalRating:hover,
+#exampleModal #modalWarranty:hover,
+#exampleModal #modalStock:hover {
+  transform: translateX(5px);
+
+  background: #eef8ed;
+
+  border-color: rgba(22, 198, 12, 0.25);
+}
+
+/* =========================
+   CATEGORY
+========================= */
+
+#exampleModal #modalCategory {
+  color: #16a30d;
+}
+
+/* =========================
+   PRICE
+========================= */
+
+#exampleModal #modalPrice {
+  color: #198754;
+
+  font-size: 1.15rem;
+  font-weight: 800;
+
+  background: #eef8ed;
+
+  border-color: rgba(22, 198, 12, 0.2);
+}
+
+/* =========================
+   RATING
+========================= */
+
+#exampleModal #modalRating {
+  color: #444;
+}
+
+/* =========================
+   WARRANTY
+========================= */
+
+#exampleModal #modalWarranty {
+  color: #555;
+}
+
+/* =========================
+   STOCK
+========================= */
+
+#exampleModal #modalStock {
+  color: #0a1633;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+#exampleModal .modal-footer {
+  padding: 18px 28px;
+
+  background: #f8f9fa;
+
+  border-top: 1px solid #e8ebef;
+}
+
+/* Close Button */
+
+#exampleModal .modal-footer .btn-secondary {
+  background: #0a1633;
+
+  color: #ffffff;
+
+  border: none;
+
+  border-radius: 10px;
+
+  padding: 10px 28px;
+
+  font-size: 0.9rem;
+  font-weight: 600;
+
+  transition: 0.3s ease;
+}
+
+#exampleModal .modal-footer .btn-secondary:hover {
+  background: #16c60c;
+
+  color: #ffffff;
+
+  transform: translateY(-2px);
+
+  box-shadow: 0 8px 18px rgba(22, 198, 12, 0.25);
+}
+
+/* =========================
+   MODAL ANIMATION
+========================= */
+
+#exampleModal .modal-dialog {
+  transform: scale(0.92);
+
+  transition:
+    transform 0.3s ease,
+    opacity 0.3s ease;
+}
+
+#exampleModal.show .modal-dialog {
+  transform: scale(1);
+}
+
+/* =========================
+   BACKDROP
+========================= */
+
+.modal-backdrop.show {
+  opacity: 0.75;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 767px) {
+  #exampleModal .modal-dialog {
+    margin: 12px;
+  }
+
+  #exampleModal .modal-body {
+    padding: 20px;
+  }
+
+  #exampleModal #modalImage {
+    height: 250px;
+
+    margin-bottom: 22px;
+
+    padding: 15px;
+  }
+
+  #exampleModal #modalTitle {
+    font-size: 1.4rem;
+
+    margin-bottom: 18px;
+  }
+
+  #exampleModal .modal-header {
+    padding: 18px 20px;
+  }
+
+  #exampleModal .modal-footer {
+    padding: 15px 20px;
+  }
+}
+
+/* =========================
+   MODAL PRODUCT INFO
+========================= */
+
+#exampleModal #modalCategory,
+#exampleModal #modalPrice,
+#exampleModal #modalRating,
+#exampleModal #modalWarranty,
+#exampleModal #modalStock,
+#exampleModal #modalBrand,
+#exampleModal #modalDiscount,
+#exampleModal #modalShipping,
+#exampleModal #modalReturn {
+  display: block;
+
+  padding: 11px 14px;
+  margin-bottom: 10px;
+
+  background: #f5f7fa;
+
+  border: 1px solid #e9ecef;
+
+  border-left: 4px solid #16c60c;
+
+  border-radius: 10px;
+
+  color: #555;
+
+  font-size: 0.92rem;
+  font-weight: 500;
+
+  transition: all 0.25s ease;
+}
+
+/* Hover */
+
+#exampleModal #modalCategory:hover,
+#exampleModal #modalPrice:hover,
+#exampleModal #modalRating:hover,
+#exampleModal #modalWarranty:hover,
+#exampleModal #modalStock:hover,
+#exampleModal #modalBrand:hover,
+#exampleModal #modalDiscount:hover,
+#exampleModal #modalShipping:hover,
+#exampleModal #modalReturn:hover {
+  background: #eef8ed;
+
+  border-left-color: #0a1633;
+
+  transform: translateX(4px);
+}
+
+/* =========================
+   TITLE
+========================= */
+
+#exampleModal #modalTitle {
+  color: #0a1633;
+
+  font-size: 1.8rem;
+
+  font-weight: 800;
+
+  line-height: 1.3;
+
+  margin-bottom: 20px;
+}
+
+/* =========================
+   PRICE
+========================= */
+
+#exampleModal #modalPrice {
+  color: #198754;
+
+  font-size: 1.1rem;
+
+  font-weight: 800;
+}
+
+/* =========================
+   DISCOUNT
+========================= */
+
+#exampleModal #modalDiscount {
+  color: #dc3545;
+
+  font-weight: 700;
+}
+
+/* =========================
+   RATING
+========================= */
+
+#exampleModal #modalRating {
+  color: #555;
+}
+
+#exampleModal .modal-star {
+  color: #ffc107;
+
+  margin-left: 4px;
+}
+
+/* =========================
+   STOCK
+========================= */
+
+#exampleModal #modalStock {
+  color: #198754;
+
+  font-weight: 700;
+}
+
+/* =========================
+   DESCRIPTION
+========================= */
+
+#exampleModal .modal-description-box {
+  margin-top: 25px;
+
+  padding: 20px;
+
+  background: #f5f7fa;
+
+  border-radius: 16px;
+
+  border: 1px solid #e9ecef;
+
+  position: relative;
+}
+
+#exampleModal .modal-description-box::before {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  top: 15px;
+  bottom: 15px;
+
+  width: 4px;
+
+  background: #16c60c;
+
+  border-radius: 0 5px 5px 0;
+}
+
+#exampleModal .modal-description-box h4 {
+  color: #0a1633;
+
+  font-size: 1.1rem;
+
+  font-weight: 800;
+
+  margin-bottom: 10px;
+}
+
+#exampleModal .modal-description-box p {
+  color: #666;
+
+  font-size: 0.95rem;
+
+  line-height: 1.8;
+
+  margin: 0;
+}
+
+/* =========================
+   IMAGE
+========================= */
+
+#exampleModal #modalImage {
+  height: 330px;
+
+  object-fit: contain;
+
+  padding: 20px;
+
+  background: #f8f9fa;
+
+  border-radius: 18px;
+
+  transition: 0.4s ease;
+}
+
+#exampleModal #modalImage:hover {
+  transform: scale(1.04);
+}
+
+/* =========================
+   MODAL INFO GRID
+========================= */
+
+#exampleModal .modal-info-grid {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 10px;
+}
+
+/* =========================
+   INFO BOXES
+========================= */
+
+#exampleModal .modal-info-grid p {
+  margin: 0;
+
+  padding: 11px 13px;
+
+  background: #f5f7fa;
+
+  border: 1px solid #e9ecef;
+
+  border-left: 4px solid #16c60c;
+
+  border-radius: 10px;
+
+  color: #555;
+
+  font-size: 0.88rem;
+  font-weight: 500;
+
+  transition: all 0.25s ease;
+}
+
+#exampleModal .modal-info-grid p:hover {
+  background: #eef8ed;
+
+  border-left-color: #0a1633;
+
+  transform: translateY(-2px);
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 767px) {
+  #exampleModal #modalTitle {
+    font-size: 1.4rem;
+  }
+
+  #exampleModal #modalImage {
+    height: 250px;
+
+    margin-bottom: 20px;
+  }
+
+  #exampleModal .modal-description-box {
+    margin-top: 15px;
+
+    padding: 16px;
+  }
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+#exampleModal .modal-footer {
+  padding: 18px 28px;
+  border-top: 1px solid #eeeeee;
+  background: #fafafa;
+}
+
+#exampleModal .modal-footer .btn-secondary {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 25px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+#exampleModal .modal-footer .btn-secondary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* =========================
+   MODAL ANIMATION
+========================= */
+
+#exampleModal .modal-dialog {
+  transform: scale(0.9);
+  transition: transform 0.3s ease;
+}
+
+#exampleModal.show .modal-dialog {
+  transform: scale(1);
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 767px) {
+  #exampleModal .modal-dialog {
+    margin: 12px;
+  }
+
+  #exampleModal .modal-body {
+    padding: 20px;
+  }
+
+  #exampleModal #modalImage {
+    height: 250px;
+    margin-bottom: 20px;
+  }
+
+  #exampleModal #modalTitle {
+    font-size: 1.4rem;
+  }
+
+  #exampleModal .modal-header {
+    padding: 18px 20px;
+  }
+
+  #exampleModal .modal-footer {
+    padding: 15px 20px;
+  }
+}
+
+
+
+
 /* ================= FOOTER ================= */
 
 .footer {
