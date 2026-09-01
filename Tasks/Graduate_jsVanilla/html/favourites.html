@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/favourites.css" />
+
+    <link rel="shortcut icon" href="../imgs/touch.png" type="image/x-icon" />
+
+    <title>Favourites - Abdallah's Shop</title>
+  </head>
+
+  <body>
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">
+          Abdallah
+          <img src="../imgs/fav.png" alt="Logo" />
+          Shop
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html#home"> Home </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html#details"> Products </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="./favourites.html">
+                Favourites
+                <span id="favCounter" class="fav-count">0</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./cart.html">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span id="cartCounter" class="fav-count">0</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html"> About us </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html"> Contact us </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ================= FAVOURITES ================= -->
+
+    <main class="favourites-section">
+      <div class="container py-5">
+        <h2 class="text-center page-title">
+          Favourites
+
+          <i class="fa-solid fa-heart" style="color: red"></i>
+        </h2>
+
+        <div class="row g-4 mt-3" id="favourites"></div>
+
+        <div id="emptyFavourites" class="empty-message text-center d-none">
+          <i class="fa-regular fa-heart"></i>
+
+          <h3>No Favourite Products</h3>
+
+          <p>You haven't added any products to your favourites yet.</p>
+
+          <a href="./index.html#details" class="btn-shop"> Browse Products </a>
+        </div>
+      </div>
+    </main>
+
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5" id="exampleModalLabel"></h2>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6">
+                <img
+                  id="modalImage"
+                  class="img-fluid rounded w-100"
+                  src=""
+                  alt=""
+                />
+              </div>
+
+              <div class="col-md-6">
+                <h3 id="modalTitle"></h3>
+
+                <div class="modal-info-grid">
+                  <p id="modalCategory"></p>
+
+                  <p id="modalPrice"></p>
+
+                  <p id="modalRating"></p>
+
+                  <p id="modalWarranty"></p>
+
+                  <p id="modalStock"></p>
+
+                  <p id="modalBrand"></p>
+
+                  <p id="modalDiscount"></p>
+
+                  <p id="modalShipping"></p>
+
+                  <p id="modalReturn"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-description-box">
+            <h4>Description</h4>
+            <p id="modalDescription"></p>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            <h4>Abdallah's Shop</h4>
+
+            <p>
+              Your trusted place for quality products and a great shopping
+              experience.
+            </p>
+          </div>
+
+          <div class="col-md-6 text-center text-md-end">
+            <h5>Follow Us</h5>
+
+            <div class="footer-social">
+              <a
+                href="https://www.facebook.com/abdallah.elsawy.524"
+                target="_blank"
+                class="social facebook"
+              >
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+
+              <a
+                href="https://github.com/abdallah-el-sawy"
+                target="_blank"
+                class="social github"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/abdallah-elsawy-212479320/"
+                target="_blank"
+                class="social linkedin"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+
+              <a href="mailto:abdallahelsawy706@gmail.com" class="social gmail">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="footer-bottom">
+          <p>
+            © <span id="year"></span>
+            Abdallah's Shop. All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="../js/favPageDisplay.js  "></script>
+    <script type="module" src="../js/favourites.js  "></script>
+  </body>
+</html>
