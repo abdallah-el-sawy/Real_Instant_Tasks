@@ -1,5 +1,6 @@
 import * as all from "./storage.js";
 import { showDetailsInModal } from "./modal.js";
+import { cart } from "./cart.js";
 
 
 let favourites = document.getElementById("favourites");
