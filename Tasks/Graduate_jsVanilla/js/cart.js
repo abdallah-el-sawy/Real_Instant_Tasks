@@ -20,7 +20,6 @@ function cart(id, productsContainer, cartContainer, quantity) {
   }
   all.setCart(cartContainer);
   cartCounter.innerText = cartContainer.length;
-  cartFloatBtn.classList.remove("d-none");
   all.setCart(cartContainer);
 
   if (cartCounter) {
