@@ -134,7 +134,7 @@ Real_Instant_Tasks/
 
 ### **Abdallah Elsawy**
 
-Computer Science Student & Frontend Developer 🚀
+Computer Science Student & FullStack Developer 🚀
 
 Interested in **Web Development, Software Engineering, and Building Real-World Projects**.
 
